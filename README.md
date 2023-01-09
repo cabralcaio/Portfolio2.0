@@ -38,7 +38,7 @@ Bem-vindo ao Portfólio 2.0, uma atualização do meu projeto de <a href="https:
 
 <a href="https://github.com/cabralcaio">
 
-<img width="200px" src="./src/mesdtn.png"/><br>
+<img width="200px" src="./../../../assets/images/mesdtn.png"/><br>
 
 <sub>
 

@@ -29,7 +29,9 @@
 }
 }
 
-
+a:hover{
+    cursor: pointer;
+}
 
   .btn-primary2 {
     font-size: 17px;
@@ -50,6 +52,7 @@
 .btn-primary2 a{
     text-decoration: none;
     color: #6E07F3;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 992px){
