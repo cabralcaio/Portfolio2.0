@@ -1,27 +1,58 @@
-# Portfolio
+# Portfólio 🧑‍💻
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+O projeto foi desenvolvido utilizando o Framework Angular. 
+The project was developed using Angular Framework.
 
-## Development server
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<!-- <img src ="./src/portfolio.png" /> -->
 
-## Code scaffolding
+<div style="display: inline_block">
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<a href = "mailto:caio_cabral1@hotmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
-## Build
+<a href="https://www.linkedin.com/in/cabralcaio/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<a href="https://cabralcaio.github.io/Portfolio/" target="_blank"><img src="https://img.shields.io/badge/-Portf%C3%B3lio-brown?style=for-the-badge&logo=true" target="_blank"></a>
 
-## Running unit tests
+</div>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h2>💡 Descrição</h2>
 
-## Running end-to-end tests
+<p>Desenvolvido para mostrar meus trabalhos anteriores. 
+Bem-vindo ao Portfólio 2.0, uma atualização do meu projeto de <a href="https://github.com/cabralcaio/Portfolio" target="_blank">portfólio anterior</a>. Este novo repositório inclui uma série de melhorias, como uma interface de usuário redesenhada, novas seções de conteúdo e a inclusão do framework Angular.
+</p>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<h2>🪙 Licença</h2>
 
-## Further help
+<b>A utilização dos arquivos é permitida somente para fins de estudos.</b>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+<h2>🎁 Créditos</h2>
+
+<table>
+
+<tr>
+
+<td align="center">
+
+<a href="https://github.com/cabralcaio">
+
+<img width="200px" src="./src/mesdtn.png"/><br>
+
+<sub>
+
+<b>Caio Cabral</b>
+
+</sub>
+
+</a>
+
+</td>
+
+</tr>
+
+</table>
+
+
+
