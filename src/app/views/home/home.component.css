@@ -1,6 +1,7 @@
 body {
     background-color: #1e272e;
     margin-top: 80px;
+    height: 100vh;
 }
 
 .first-section {
@@ -56,21 +57,44 @@ body {
     background-color: #4600a2;
     color: white;
     align-content: center;
+    position: relative;
 }
 
 #img-me {
     margin-top: -100px;
+    position: relative;
+    z-index: 10;
 }
 
 .about-me-inside {
     padding: 100px 200px;
     padding-bottom: 200px;
     text-align: center;
+    position: relative;
+    z-index: 20;
 }
 
 .about-me-inside p{
     font-size: 16px;
     line-height: 1.5;
+}
+
+#project-title h1{
+    text-align: center;
+}
+#project-title {
+    padding-top: 100px;
+    margin-top: -110px;
+    background-color: #4600a2;
+    color: white;
+    align-content: center;
+    height: 280px;
+}
+.projects-call {
+    margin-top: -200px;
+}
+#projects {
+    margin-top: -250px;
 }
 @media screen and (max-width: 992px) {
     .first-section { 

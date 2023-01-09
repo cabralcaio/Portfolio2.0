@@ -1,3 +1,7 @@
+body {
+    background-color: #1e272e;
+    padding-bottom: 220px;
+}
 .conteiner {
     display: flex;
     justify-content: space-around;
@@ -56,8 +60,14 @@
 @media screen and (max-width: 992px){
     .conteiner{
        flex-direction: column;
+       align-items: center;
    }
    .relative {
        width: 100%;
    }
+}
+@media screen and (max-width: 380px) {
+    .relative {
+        height: 500px;
+    }
 }
