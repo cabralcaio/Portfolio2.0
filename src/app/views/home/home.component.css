@@ -1,3 +1,72 @@
 body {
     background-color: #1e272e;
+    margin-top: 80px;
+}
+
+.first-section {
+    padding-top: 80px;
+    display: flex;
+}
+.first-section h1 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 2.5em;
+}
+.first-section p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 15px;
+}
+.introdution {
+    padding: 20px 10px 20px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 50vw;
+    margin-right: 80px;
+    background-color: black;
+}
+.gifs {
+    margin-left: 100px;
+    max-width: 50vw;
+    display: flex;
+}
+.gif2 {
+    position: absolute;
+    margin-left: -280px;
+    margin-top: 100px;
+    max-width: 200px;
+    width: 100%;
+}
+.gif1 {
+    max-width: 400px;
+    width: 400px;
+    width: 100%;
+}
+@media screen and (max-width: 992px) {
+    .first-section { 
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .gifs {
+        justify-content: center;
+    }
+    .introdution {
+        max-width: none;
+        margin-right: 0;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .first-section h1 {
+        font-size: 1.5rem;
+    }
+    .first-section p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
 }
