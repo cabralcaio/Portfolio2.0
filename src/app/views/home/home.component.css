@@ -96,6 +96,14 @@ body {
 #projects {
     margin-top: -250px;
 }
+
+.button-1 {
+    margin-right: 10px;
+    background-color: #6E07F3!important;
+}
+.button-2 {
+    color: #6E07F3!important;
+}
 @media screen and (max-width: 992px) {
     .first-section { 
         flex-direction: column;
