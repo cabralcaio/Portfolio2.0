@@ -5,7 +5,7 @@ The project was developed using Angular Framework.
 
 </div>
 
- <img src ="./assets/images/portfolio.png"/> 
+ <img src ="./src/assets/images/portfolio.png"/> 
 
 <div style="display: inline_block">
 
@@ -38,7 +38,7 @@ Bem-vindo ao Portfólio 2.0, uma atualização do meu projeto de <a href="https:
 
 <a href="https://github.com/cabralcaio">
 
-<img width="200px" src="./assets/images/mesdtn.png"/><br>
+<img width="200px" src="./src/assets/images/mesdtn.png"/><br>
 
 <sub>
 
