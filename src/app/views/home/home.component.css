@@ -126,6 +126,9 @@ body {
     #img-me {
         margin-top: -50px;
     }
+    #project-title {
+        height: 1700px;
+    }
 }
 
 @media screen and (max-width: 768px) {
