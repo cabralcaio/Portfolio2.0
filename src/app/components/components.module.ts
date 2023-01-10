@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { HabilitiesCardsComponent } from './habilities-cards/habilities-cards.component';
 import { MaterialModule } from '../shared/material/material.module';
 import { FooterComponent } from './footer/footer.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 
@@ -11,7 +12,8 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
     HeaderComponent,
     HabilitiesCardsComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectsComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
   exports: [
     HeaderComponent,
     HabilitiesCardsComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectsComponent
   ]
 })
 export class ComponentsModule { }
