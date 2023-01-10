@@ -5,7 +5,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 550px;
+    padding-bottom: 30px;
 }
 #footer-informations {
     margin-top: 80px;
@@ -18,10 +19,12 @@ footer p{
 }
 footer h1 {
     color: white ;
+    font-size: 2rem;
 }
 
 .icon-footer {
-    width: 80px;
+    width: 50px;
+    margin: 10px;
     cursor: pointer;
 }
 .icon-footer:hover {
@@ -35,19 +38,19 @@ footer h1 {
 .start-box {
     height: 150px;
     width: 80%;
-    margin-top: -150px;
+    margin-top: -130px;
     background-color: #141c3a;
     border-radius: 6px;
     box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%), 0 0 0 1px #141c3a;
     color: #141c3a;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 1.25rem;
 }
 .btn-secondary {
     font-size: 17px;
+    white-space: nowrap;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: white;
@@ -61,4 +64,11 @@ footer h1 {
     transition: ease-in-out 0.4s;
     background-color: #5BE9B9;
     color: #141c3a;
+}
+
+@media screen and (max-width: 768px) {
+    .start-box {
+        flex-direction: column;
+        height: 350px;
+    }
 }

@@ -5,7 +5,7 @@ The project was developed using Angular Framework.
 
 </div>
 
- <img src ="../../../assets/images/portfolio.png"/> 
+ <img src ="./assets/images/portfolio.png"/> 
 
 <div style="display: inline_block">
 
@@ -13,7 +13,7 @@ The project was developed using Angular Framework.
 
 <a href="https://www.linkedin.com/in/cabralcaio/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
-<a href="https://cabralcaio.github.io/Portfolio/" target="_blank"><img src="https://img.shields.io/badge/-Portf%C3%B3lio-brown?style=for-the-badge&logo=true" target="_blank"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/-Portf%C3%B3lio-brown?style=for-the-badge&logo=true" target="_blank"></a>
 
 </div>
 
@@ -38,7 +38,7 @@ Bem-vindo ao Portfólio 2.0, uma atualização do meu projeto de <a href="https:
 
 <a href="https://github.com/cabralcaio">
 
-<img width="200px" src="./../../../assets/images/mesdtn.png"/><br>
+<img width="200px" src="./assets/images/mesdtn.png"/><br>
 
 <sub>
 
