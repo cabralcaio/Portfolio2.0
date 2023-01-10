@@ -5,7 +5,7 @@ The project was developed using Angular Framework.
 
 </div>
 
-<!-- <img src ="./src/portfolio.png" /> -->
+ <img src ="../../../assets/images/portfolio.png"/> 
 
 <div style="display: inline_block">
 

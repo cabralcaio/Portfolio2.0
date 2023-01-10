@@ -19,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   exports: [
     HeaderComponent,
-    HabilitiesCardsComponent
+    HabilitiesCardsComponent,
+    FooterComponent
   ]
 })
 export class ComponentsModule { }
