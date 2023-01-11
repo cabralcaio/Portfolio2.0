@@ -104,6 +104,38 @@ body {
 .button-2 {
     color: #6E07F3!important;
 }
+
+.repository {
+    margin-top: -30px;
+    margin-bottom: -50px;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    /* background-color: #4600a2; */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../../../assets/images/tecnologia-digitando.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0,0,0,0.5);
+}
+.repository h3 {
+    color: white;
+    font-size: 17px;
+}
+.inside-repository {
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.inside-repository a {
+    margin-top: 15px;
+    width: fit-content;
+}
+
 @media screen and (max-width: 992px) {
     .first-section { 
         flex-direction: column;
