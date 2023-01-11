@@ -1,0 +1,81 @@
+#skills {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #1e272e;
+    padding: 100px 10px;
+    margin-bottom: -200px;
+}
+.skill-box {
+    height: 106px;
+    width: 106px;
+    background-color: #6E07F3;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+}
+.skill-conteiner {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 50%;
+}
+.skill-conteiner-text {
+    list-style: none;
+    padding-left: 350px;
+    padding-right: 350px;
+    
+}
+.skill-box:hover {
+    transform: scale(1.05);
+}
+.skill-icon {
+    width: 60px;
+}
+.skill-box .skill-icon {
+    transition: ease-in-out 0.3s;
+}
+.skill-box:hover .skill-icon {
+    opacity: 0;
+}
+.skill1{
+    background-image: url(./../../../assets/images/html.png);
+    background-size: 58px;
+}
+.skill2{
+    background-image: url(./../../../assets/images/java.png);
+    background-size: 59px;
+}
+.skill3{
+    background-image: url(./../../../assets/images/java-script.png);
+    background-size: 59px;
+}
+.skill4{
+    background-image: url(./../../../assets/images/angular.png);
+    background-size: 59px;
+}
+.is-invisible {
+    visibility: hidden;
+}
+.is-visible {
+visibility: visible;
+}
+.visibility-off {
+    display: none;
+}
+.text-content {
+    color: #fff!important;
+}
+#skills h2 {
+    color: #fff!important;
+
+}

@@ -6,6 +6,7 @@ import { MaterialModule } from '../shared/material/material.module';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { DetalhesProjetoComponent } from './detalhes-projeto/detalhes-projeto.component';
+import { BoxSkillsComponent } from './box-skills/box-skills.component';
 
 
 
@@ -15,7 +16,8 @@ import { DetalhesProjetoComponent } from './detalhes-projeto/detalhes-projeto.co
     HabilitiesCardsComponent,
     FooterComponent,
     ProjectsComponent,
-    DetalhesProjetoComponent
+    DetalhesProjetoComponent,
+    BoxSkillsComponent
   ],
   imports: [
     CommonModule,
@@ -25,7 +27,8 @@ import { DetalhesProjetoComponent } from './detalhes-projeto/detalhes-projeto.co
     HeaderComponent,
     HabilitiesCardsComponent,
     FooterComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    BoxSkillsComponent
   ]
 })
 export class ComponentsModule { }
