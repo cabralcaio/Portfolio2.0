@@ -7,7 +7,7 @@ The project was developed using Angular Framework.
 
  <img src ="./src/assets/images/portfolio.png"/> 
 
-<div style="display: inline_block">
+<div style="display: inline">
 
 <a href = "mailto:caio_cabral1@hotmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
