@@ -5,6 +5,7 @@ import { HabilitiesCardsComponent } from './habilities-cards/habilities-cards.co
 import { MaterialModule } from '../shared/material/material.module';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { DetalhesProjetoComponent } from './detalhes-projeto/detalhes-projeto.component';
 
 
 
@@ -13,7 +14,8 @@ import { ProjectsComponent } from './projects/projects.component';
     HeaderComponent,
     HabilitiesCardsComponent,
     FooterComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    DetalhesProjetoComponent
   ],
   imports: [
     CommonModule,
