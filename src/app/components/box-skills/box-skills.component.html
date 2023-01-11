@@ -1,29 +1,29 @@
 <div id="skills">
     <h2>Conheça as principais tecnologias que eu domino</h2>
     <div class="skill-conteiner">
-        <div class="skill-box skill1"><img src="./../../../assets/images/html2.png" alt="HTML" class="skill-icon"></div>
-        <div class="skill-box skill2"><img src="./../../../assets/images/java2.png" alt="java" class="skill-icon"></div>
-        <div class="skill-box skill3"><img src="./../../../assets/images/java-script2.png" alt="Javascript" class="skill-icon"></div>
-        <div class="skill-box skill4"><img src="./../../../assets/images/angular2.png" alt="Angular" class="skill-icon"></div>
+        <div class="skill-box skill1" (mouseenter)="ocultar(1)" (mouseleave)="mostrar()"><img src="./../../../assets/images/html2.png" alt="HTML" class="skill-icon"></div>
+        <div class="skill-box skill2" (mouseenter)="ocultar(2)" (mouseleave)="mostrar()"><img src="./../../../assets/images/java2.png" alt="java" class="skill-icon"></div>
+        <div class="skill-box skill3" (mouseenter)="ocultar(3)" (mouseleave)="mostrar()"><img src="./../../../assets/images/java-script2.png" alt="Javascript" class="skill-icon"></div>
+        <div class="skill-box skill4" (mouseenter)="ocultar(4)" (mouseleave)="mostrar()"><img src="./../../../assets/images/angular2.png" alt="Angular" class="skill-icon"></div>
     </div>
     <div class="skill-conteiner-text">
-        <div id="text0" class="text-content">
+        <div *ngIf="itemMain" class="text-content">
             <h2 >Vamos interagir?</h2>
             <p>Passe o mouse em cima dos ícones acima e entenda cada tecnologia.</p>
         </div>
-        <div id="text1" class="visibility-off text-content">
+        <div *ngIf="itemHtml" id="text1" class="text-content">
             <h2 >HTML</h2>
             <p>Essa é a linguagem base para todo projeto Web. O HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores, são cruciais para um bom rankeamento no google.</p>
         </div>
-        <div id="text2" class="visibility-off text-content">
+        <div *ngIf="itemJava" id="text2" class="text-content">
             <h2>JAVA</h2>
             <p>Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90. Hoje a companhia que a mantém é a gigantesca Oracle. Nada melhor do que uma tecnologia que se provou no tempo, certo?</p>
         </div>
-        <div id="text3" class="visibility-off text-content">
+        <div *ngIf="itemJs" id="text3" class="text-content">
             <h2>JavaScript</h2>
             <p>Javascript, também conhecida como JS, é uma linguagem de programação de uso geral, aplicada principalmente para desenvolvimento web e desenvolvimento de software. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</p>
         </div>
-        <div id="text4" class="visibility-off text-content">
+        <div *ngIf="itemAngular" id="text4" class="text-content">
             <h2>Angular</h2>
             <p>Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript desenvolvido e mantido pela Equipe Angular do Google</p>
         </div>
