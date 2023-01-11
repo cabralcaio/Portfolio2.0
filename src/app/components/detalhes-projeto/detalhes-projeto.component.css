@@ -1,0 +1,72 @@
+* {
+    background-color: #46536200;
+}
+.card {
+    background-color:#2b343b;
+    width: 100%;
+    max-width: 370px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px rgb(0 0 0 / 20%);
+    margin: 30px 10px;
+}
+.card:hover {
+    box-shadow: -30px 20px 20px -30px #6E07F3;
+    transition: ease-in-out 0.4s;
+}
+.is-blur {
+    filter: blur(4px);
+}
+#profileimg {
+    width: 70px;
+    height: 55px;
+    padding-left: 10px;
+    border-radius: 50%;
+    
+}
+#banner {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 0px;
+}
+.card p, h2, h3 {
+    padding-left: 10px;
+    color: #ffff;
+}
+.card h1 {
+text-align: center;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1px;
+}
+.followers {
+    margin-top: -15px;
+}
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+margin-top: -5px!important;
+}
+.label {
+    color: white;
+    background-color: #6E07F3;
+    width: fit-content;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+.labeldiv {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.title-button{
+    display: flex;
+    justify-content: space-between;
+}
