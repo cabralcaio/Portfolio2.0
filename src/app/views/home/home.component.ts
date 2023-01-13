@@ -34,7 +34,6 @@ export class HomeComponent {
 
   }
 
-  
   @ViewChild('counter')myElement!: ElementRef;
 
   ngAfterViewInit() {
@@ -50,9 +49,4 @@ export class HomeComponent {
     observer.observe(this.myElement.nativeElement);
   }
 
-  timer() {
-    setTimeout(() => {
-      
-    }, 3000);
-  }
 }
