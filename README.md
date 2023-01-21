@@ -54,5 +54,9 @@ Bem-vindo ao Portfólio 2.0, uma atualização do meu projeto de <a href="https:
 
 </table>
 
+<h2>🪙 Dê os créditos após clonar! </h2>
+
+<img src="./src/assets/images/clones.png"/><br>
+
 
 
