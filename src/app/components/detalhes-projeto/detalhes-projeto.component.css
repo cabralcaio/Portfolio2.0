@@ -46,9 +46,21 @@ text-align: center;
     margin-top: -15px;
 }
 .todo {
+    margin-top: -30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.description {
+    color: #cccccc;
+}
+h2, h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+.infos {
+    padding-top: 10px;
 }
 .content {
 margin-top: -5px!important;
@@ -59,11 +71,16 @@ margin-top: -5px!important;
     width: fit-content;
     padding: 3px 10px;
     border-radius: 10px;
-    font-weight: 800;
+    font-weight: 700;
 }
 .labeldiv {
     padding-left: 10px;
     margin-top: 10px;
+}
+
+.button-1 {
+    background-color: #6E07F3!important;
+    margin: 15px 5px;
 }
 
 .title-button{

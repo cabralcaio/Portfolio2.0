@@ -153,6 +153,11 @@ body
 .container .button-1 {
     padding: 1px 10px;
     background-color: #6E07F3!important;
+    margin-right: 5px;
+}
+.button-2 {
+  color: #6E07F3!important;
+  background-color: #1e272e;
 }
 
 @keyframes animate

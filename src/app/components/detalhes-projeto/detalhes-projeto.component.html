@@ -3,62 +3,72 @@
 <p *ngIf="variavel == 'projeto2'">{{variavel}} 2</p>
 <p *ngIf="variavel == 'projeto3'">{{variavel}} 3</p>
  -->
- <div class="title-button">
-    <h2 mat-dialog-title>Detalhes do projeto</h2>
-    <button mat-icon-button mat-dialog-close>
-        <i class="material-icons">close</i>
-    </button>
-</div>
-<div class="todo" *ngIf="variavel == 'projeto1'">
-    <div class="card">
-        <img id="banner" src="./../../../assets/images/project-health.jpg" alt="projeto saúde">
-        <div class="labeldiv">
-        <p class="label">Em desenvolvimento</p>
-        </div>
-        <h2 class="content">Marketplace de saúde</h2>
-        <p class="content">Site que conecta clientes a profissionais de saúde. Busca através de mapas e filtros personalizados.</p>
-        <div class="profile">
-            <img id="profileimg" src="./../../../assets/images/holanda.png" alt="Owner">
-            <div>
-                <h3>Empresa holandesa</h3>
-                <p class="followers">6 semanas de projeto</p>
-            </div>
-        </div>
+
+    <div class="title-button">
+        <h2 mat-dialog-title>Detalhes do projeto</h2>
+        <button mat-icon-button mat-dialog-close>
+            <i class="material-icons">close</i>
+        </button>
     </div>
-</div>
-<div class="todo" *ngIf="variavel == 'projeto2'">
-    <div class="card">
-        <img id="banner" src="./../../../assets/images/finance.jpg" alt="Projeto financeiro">
-        <div class="labeldiv">
-        <p class="label">Em desenvolvimento</p>
-         </div>
-        <h2 class="content">Software de vendas</h2>
-        <p class="content">Site para apresentar a empresa e vender contrato de empréstimo online através de landing pages de cada produto.</p>
-        <div class="profile">
-            <img id="profileimg" src="./../../../assets/images/brasil.jpg" alt="Owner">
-            <div>
-                <h3>Empresa brasileira</h3>
-                <p class="followers">3 semanas de projeto</p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="todo" *ngIf="variavel == 'projeto3'">
-    <div class="card">
-        <section >
-            <img id="banner" class="is-blur" src="./../../../assets/images/criptocurrency.jpg" alt="Criptocurrency">
+    <div mat-dialog-content style="max-height: 85vh">
+    <div class="todo" *ngIf="variavel == 'projeto1'">
+        <div class="card">
+            <img id="banner" src="./../../../assets/images/project-health.jpg" alt="projeto saúde">
             <div class="labeldiv">
-            <p class="label">Em breve (Aguarde)</p>
+            <p class="label">Em desenvolvimento</p>
             </div>
-            <h2 class="content is-blur">Software betting</h2>
-            <p class="content is-blur">Software intuitivo e dinâmico para usuários que aplicam a técnica de arbitragem, procedimento responsável por encontrar surebets (apostas sem risco.)</p>
-            <div class="profile is-blur">
-            <img id="profileimg" class="is-blur" src="./../../../assets/images/brasil.jpg" alt="Owner">
-            <div class="is-blur">
-                <h3>Empresa x</h3>
-                <p class="followers">x dias de projeto</p>
+            <h2 class="content">Marketplace de saúde</h2>
+            <p class="content">Site que conecta clientes a profissionais de saúde. Busca através de mapas e filtros personalizados.</p>
+            <div class="profile">
+                <img id="profileimg" src="./../../../assets/images/holanda.png" alt="Owner">
+                <div>
+                    <h3>Empresa holandesa</h3>
+                    <p class="followers">6 semanas de projeto</p>
+                </div>
             </div>
         </div>
-        </section>
+    </div>
+    <div class="todo" *ngIf="variavel == 'projeto2'">
+        <div class="card">
+            <img id="banner" src="./../../../assets/images/proservsite.png" alt="Projeto financeiro">
+            <div class="labeldiv">
+            <p class="label">Concluído</p>
+             </div>
+            <h2 class="content">Software de vendas</h2>
+            <p class="content">Site para apresentar a empresa e vender contrato de empréstimo online através de landing pages de cada produto.</p>
+            <div class="profile">
+                <img id="profileimg" src="./../../../assets/images/brasil.jpg" alt="Owner">
+                <div class="infos">
+                    <h3>Empresa brasileira</h3>
+                    <p class="followers">5 semanas de projeto</p>
+                </div>
+            </div>
+            <a class="button-1" href="https://proservconsultoria.com.br" target="_blank" mat-raised-button color="primary">Ver projeto</a>
+        </div>
+        <h3>Descrição:</h3>
+        <p class="description">É com orgulho que compartilho o lançamento do novo site da Proserv, fruto do meu árduo trabalho durante 5 semanas em um projeto desenvolvido do zero. Entregar um site completo para uma instituição financeira foi com certeza o meu maior desafio até aqui!
+    
+            A Proserv é uma empresa que oferece serviços financeiros competitivos no mercado nacional e agora possui um site moderno e user-friendly para melhor atender seus clientes.
+            
+            Tecnologias utilizadas: Angular + Typescript + Firebase (Cloud NoSQL).</p>
+    </div>
+    <div class="todo" *ngIf="variavel == 'projeto3'">
+        <div class="card">
+            <section >
+                <img id="banner" src="./../../../assets/images/betcomp.png" alt="Bet company">
+                <div class="labeldiv">
+                <p class="label">Em breve (Aguarde)</p>
+                </div>
+                <h2 class="content is-blur">Software betting</h2>
+                <p class="content is-blur">Software intuitivo e dinâmico para usuários que aplicam a técnica de arbitragem, procedimento responsável por encontrar surebets (apostas sem risco.)</p>
+                <div class="profile is-blur">
+                <img id="profileimg" class="is-blur" src="./../../../assets/images/brasil.jpg" alt="Owner">
+                <div class="is-blur">
+                    <h3>Empresa x</h3>
+                    <p class="followers">x dias de projeto</p>
+                </div>
+            </div>
+            </section>
+        </div>
     </div>
 </div>
